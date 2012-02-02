@@ -1,0 +1,15 @@
+*** v0.2.1 alpha ***
+- Corrected bug which only manifested in case-sensitive OSes: language files must have exactly the same name as the respective classes which use them. 
+
+*** v0.2 alpha ***
+- Add/Remove addresses to/from extracted address list.
+- Improved and centralized error handling in EMaM class.
+- Addresses are considered to always be lower case.
+- Corrected message when moving extracted address to mail list.
+- New options when mutual exclusion occurs: move anyway, move only those without
+mutual exclusion and cancel.
+- Improved comments in source files and Javadoc.
+- Changed location of "extract from file" button.
+ 
+*** v0.1 alpha ***
+- First version.

@@ -1,0 +1,31 @@
+*v0.3 alpha
+- Don't put separator char after last entry when copying to clipboard
+- Add last time returned date to returned list:
+--- Use return date as another criteria for adding returned addresses to the removed list.
+--- Use return date as criteria to delete addresses from the returned list.
+- Add warning before processing returned. 
+	Indicate how many (and who) will be affected. 
+	How many (and who) will get out of mail list.
+	How many (and who) will get in removed.
+- Possibility of holding extracted addresses when extracting further text (checkbox).
+- Clarify eliminate and delete in extracted list.
+*v0.4 alpha
+- Set choice of controller, model and view as MaM properties.
+- Improve GUI: use GridBagLayout
+*v0.5 alpha
+- Copy only selected to clipboard, if none selected ask for select all.
+- Right-click copy, move, delete.
+- Drag and drop addresses from table to table.
+- Key binding.
+*v0.6 alpha
+- Improve GUI: add buttons menu and tooltip text. 
+- Add an icon.
+- Allow \n and other characters as separators in copy op. (text area?)
+- Options (language, separator char)
+*v0.7 alpha
+- Use wildcards as valid addresses... in lists and in remove operations
+- Create windows installer
+*v0.8 alpha
+- Do localization according to Java
+- Undo
+*v1.0 beta 1

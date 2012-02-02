@@ -1,0 +1,1 @@
+java -cp bin com.fakenmc.mail.emam.EMaM $1
